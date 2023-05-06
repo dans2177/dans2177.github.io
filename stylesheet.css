@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+#home {
+  background-image: url("your-nature-background-image.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+#about,
+#portfolio,
+#contact {
+  padding: 3rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social-media-icons a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.social-media-icons a:hover {
+  color: #ccc;
+}
+/* Add the following lines to your styles.css file */
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  width: 350px;
+  transition: all 0.3s;
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card h3,
+.project-card p {
+  padding: 1rem;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
